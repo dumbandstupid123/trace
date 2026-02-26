@@ -15,7 +15,7 @@ I tested it with prompts ranging from "ESP32 with USB charging" to "full autonom
 <img width="979" height="409" alt="Screenshot 2026-02-25 at 3 24 44 AM" src="https://github.com/user-attachments/assets/1e67bc97-4598-427b-b28a-0f07402a9b87" />
 
 
-### 1. Datasheet → Zener Code
+### 2. Datasheet → Zener Code
 
 Drop in any component datasheet (PDF) and trace will read it, understand the pinout, power requirements, and recommended circuitry, and spit out verified Zener code — Diode's hardware description language. It runs the code through the `pcb build` compiler automatically and retries if it fails.
 
