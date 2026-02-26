@@ -1,14 +1,14 @@
 
 # Trace
 
-Trace is a tool I built to get fast electronic diagrams and BOM's while prototyping.
+Trace is a tool I built to get rough electronic diagrams and BOM's while prototyping.
 It does two things:
 
 ---
 
 ### 1. Natural Language → Schematic + BOM
 
-Describe what you want to build in plain English and Trace will design a rough circuit for you — picks real components, looks up current Digikey prices, and gives you a full BOM with clickable links. You can export the whole thing as a PDF.
+Describe what you want to build in plain English and Trace will design a rough circuit for you: picks real components, looks up current Digikey prices, and gives you a full BOM with clickable links. You can export the whole thing as a PDF.
 
 I tested it with prompts ranging from "ESP32 with USB charging" to "full autonomous drone flight controller with dual-core MCU, CAN FD, GPS, ESC outputs, and 48V power chain." It handles both.
 
