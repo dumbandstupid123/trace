@@ -1,8 +1,4 @@
 
-Human README for Trace
-markdown
-
-
 # Trace
 
 Trace is a tool I built to get fast electronic diagrams and BOM's while prototyping.
