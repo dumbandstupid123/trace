@@ -42,7 +42,7 @@ open index.html
 ---
 
 ### What I learned
-The hardest part was getting the compiler feedback loop right — the agent needs to actually understand the error messages and fix them, not just retry blindly.
+The hardest part was getting the compiler feedback loop right since the agent needs to actually understand the error messages and fix them, not just retry blindly.
 The footprint resolution step (for PCB layout) requires Diode's internal infrastructure, which I don't have access to. That's the one piece I couldn't close without them.
 
 ---
