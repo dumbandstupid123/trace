@@ -4,6 +4,7 @@
 Trace is a tool I built to get rough electronic diagrams and BOM's while prototyping.
 It does two things:
 
+
 ---
 
 ### 1. Natural Language → Schematic + BOM
@@ -19,7 +20,7 @@ I tested it with prompts ranging from "ESP32 with USB charging" to "full autonom
 
 Drop in any component datasheet (PDF) and trace will read it, understand the pinout, power requirements, and recommended circuitry, and spit out verified Zener code: Diode's hardware description language. It runs the code through the `pcb build` compiler automatically and retries if it fails.
 
-I tested it on ESP32, STM32, and IMU datasheets. It gets it right most of the time on the first try.
+I tested it on ESP32, STM32, and IMU datasheets. It gets it right most of the time on the first try. (KiCAD integration coming soon)
 
 ### How to run it
 
