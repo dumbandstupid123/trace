@@ -830,7 +830,7 @@ def build_zener_code(zen_code, filename='output.zen'):
 # We have defined all the processes, now we combine them and loop them to make them agentic 
 
 def run_agent(datasheet_path, max_retries=3):
-    client = anthropic.Anthropic(api_key='ANTHROPIC_API_KEY)
+    client = anthropic.Anthropic()
 
     
     print('Leh meh read this shit bai')

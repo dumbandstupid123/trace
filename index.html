@@ -193,7 +193,7 @@
       formData.append('file', selectedFile);
 
       try {
-        const res = await fetch('http://localhost:5700/generate', { method: 'POST', body: formData });
+        const res = await fetch('/generate', { method: 'POST', body: formData });
         const data = await res.json();
         document.getElementById('loader1').classList.remove('active');
         if (data.success) {
@@ -218,7 +218,7 @@
       document.getElementById('loader2').classList.add('active');
 
       try {
-        const res = await fetch('http://localhost:5700/schematic', {
+        const res = await fetch('/schematic', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ prompt })
